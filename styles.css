@@ -53,7 +53,7 @@ textarea {
   border-color: #C0C0C0;
 }
 
-textarea:focus {
+#evaluatedText:focus {
   border-color: #4D90FE;
 }
 
