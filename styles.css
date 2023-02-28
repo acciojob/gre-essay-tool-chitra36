@@ -114,7 +114,7 @@ textarea {
 @media (max-width: 600px) {
   /* rewriting old styles */
   body {
-    width: 95%;
+    width: 55%;
   }
   .output.row {
     border: none;
