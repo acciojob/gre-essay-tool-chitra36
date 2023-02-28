@@ -2,6 +2,7 @@
 var input = document.querySelectorAll('textarea')[0],
   wordCount = document.querySelector('#wordCount'),
 readability = document.querySelector('#readability'),
+keywordsDiv = document.querySelectorAll('.keywords')[0],
 topKeywords = document.querySelector('#topKeywords');
 
 // updating the displayed stats after every keypress
