@@ -1,7 +1,8 @@
 "use strict";
 var input = document.querySelectorAll('textarea')[0],
   wordCount = document.querySelector('#wordCount'),
-  topKeywords = document.querySelector('#topKeywords');
+readability = document.querySelector('#readability'),
+topKeywords = document.querySelector('#topKeywords');
 
 // updating the displayed stats after every keypress
 input.addEventListener('keyup', function() {
