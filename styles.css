@@ -49,7 +49,7 @@ textarea {
   line-height: 1.5rem;
 }
 
-textarea:hover {
+*hover#evaluatedText {
   border-color: #C0C0C0;
 }
 
