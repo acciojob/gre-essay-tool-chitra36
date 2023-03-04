@@ -18,6 +18,6 @@ function countWord() {
 			}
 		
 			
-			document.getElementById("show")
+			document.getElementById("wordCount")
 				.innerHTML = count;
 		}
