@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-    <style>
-  * {
-    text-align: center;
-}
-    </style>
+   
 <body >
 
 
@@ -18,33 +14,9 @@
 	</textarea>
 	<br><br>
 
-	<h3> Word Count:
+	<h3 id="wordCount"> Word Count:
 		<span id="show">0</span>
     </h3>
 
-	<script>
-		function countWord() {
-		
-
-			var words = document
-				.getElementById("evaluatedText").value;
-		
-			
-			var count = 0;
-		
-			
-			var split = words.split(' ');
-		
-			
-			for (var i = 0; i < split.length; i++) {
-				if (split[i] != "") {
-					count += 1;
-				}
-			}
-		
-			
-			document.getElementById("show")
-				.innerHTML = count;
-		}
-	</script>
+	
 </body>
